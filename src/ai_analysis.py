@@ -2,10 +2,11 @@
 import os
 import google.generativeai as genai
 from src.extractors import extract_text
-from src.matcher import extract_sections
+from src.matcher import extract_sections, normalize_text, extract_skills_from_text
 
 # Configure Gemini with your API key
-genai.configure(api_key=os.getenv("GEMINI_API_KEY", "AIzaSyBazWyBTLK5jmxW43hF96havYmAUrO4-cs"))
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+
 
 def analyze_resume_with_ai(resume_file_or_text, job_description):
     """
