@@ -17,6 +17,9 @@ PyPDF2
 docx2txt
 PyMuPDF   # required for fitz
 
+# Google Gemini AI
+google-generativeai
+
 # Visualization
 matplotlib
 seaborn
