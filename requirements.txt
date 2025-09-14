@@ -1,0 +1,27 @@
+# Core dependencies
+streamlit
+openai
+pdfplumber
+pandas
+numpy
+scikit-learn
+
+# NLP & AI libraries
+nltk
+spacy
+sentence-transformers
+
+# File handling & parsing
+python-docx
+PyPDF2
+
+# Visualization
+matplotlib
+seaborn
+
+# Deep Learning Frameworks
+torch
+torchvision
+torchaudio
+tensorflow
+keras
